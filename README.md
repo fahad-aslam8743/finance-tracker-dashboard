@@ -5,7 +5,7 @@ Zenith ek powerful aur interactive personal finance management tool hai jo users
 
 
 ## 🌐 Live Demo
-Check out the live application here: **[Zenith Finance]([zenithfintech.netlify.app](https://zenithfintech.netlify.app/))**
+Check out the live application here: **[Zenith Finance]([zenithfintech.netlify.app](https://zenithfintech.netlify.app/)**
 
 
 
