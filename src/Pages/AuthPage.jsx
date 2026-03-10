@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { TrendingUp, Loader2 } from 'lucide-react';
 import { supabase } from '../api/Supabase';
-
+import toast from 'react-hot-toast';
+ 
 const AuthPage = ({ type }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -15,7 +16,7 @@ const AuthPage = ({ type }) => {
       ? await supabase.auth.signUp({ email, password })
       : await supabase.auth.signInWithPassword({ email, password });
     if (error) {
-    toast.error(error.message); // Purana alert hata kar toast lagaya
+    toast.error(error.message); 
   } else {
     toast.success(type === 'signup' ? 'Account Created! Please check email' : 'Welcome Back!');
   }
