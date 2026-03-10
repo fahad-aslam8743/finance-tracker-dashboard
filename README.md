@@ -1,16 +1,34 @@
-# React + Vite
+# 🚀 Zenith | Modern Finance Tracker Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Zenith ek powerful aur interactive personal finance management tool hai jo users ko unke kharchay (expenses) aur aamdani (income) track karne mein madad karta hai. Isay **React**, **Tailwind CSS**, aur **Supabase** ki madad se banaya gaya hai.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🌐 Live Demo
+Check out the live application here: zenithfintech.netlify.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Key Features
+
+- **🔐 Secure Authentication:** Supabase Auth ke zariye email/password login aur signup.
+- **📊 Real-time Dashboard:** Aapke financial status ka parinda-view (overview) charts ke saath.
+- **💰 Transaction Management:** Expenses aur Income ko add, delete, aur categorize karne ki sahoolat.
+- **📈 Interactive Visuals:** Recharts library ka istemal karte hue visual data representation.
+- **📄 PDF Reports:** Apni financial summary ko PDF format mein download karein (using jsPDF).
+- **📱 Responsive Design:** Mobile, Tablet, aur Desktop par makkhan ki tarah chalta hai.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+| :--- | :--- |
+| **React (Vite)** | Frontend Framework |
+| **Tailwind CSS** | Styling & UI Design |
+| **Supabase** | Backend & Database (PostgreSQL) |
+| **TanStack Query** | State Management & Data Fetching |
+| **Recharts** | Data Visualization |
+| **Lucide React** | Premium Icons |
